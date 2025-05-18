@@ -593,6 +593,7 @@ GameObject:
   - component: {fileID: 1342611001}
   - component: {fileID: 1342611000}
   - component: {fileID: 1342610999}
+  - component: {fileID: 1342611003}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -691,6 +692,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1342611003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1342610998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: baa837fe48b295da582e42cc18e07f06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vertices:
+  - {fileID: 2140633502}
+  - {fileID: 719252875}
+  - {fileID: 1072446557}
+  - {fileID: 1529109149}
 --- !u!1 &1483066231
 GameObject:
   m_ObjectHideFlags: 0
